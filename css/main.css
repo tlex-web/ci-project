@@ -42,7 +42,7 @@ img {
 
 #header {
 	height: 100vh;
-	background-image: url('../src/IMG_0389.jpg');
+	background-image: url('../src/IMG_0389-min.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -56,7 +56,7 @@ img {
 }
 
 .heading {
-	font-size: 5rem;
+	font-size: 8rem;
 	font-stretch: expanded;
 	backface-visibility: hidden;
 }
@@ -131,8 +131,16 @@ img {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-animate {
-	animation: moveInBottom 1s ease-out 1s backwards;
+.animate-bottom {
+	animation: moveInBottom 2s ease-out 3s backwards;
+}
+
+.animate-left {
+	animation: moveInLeft 2s;
+}
+
+.animate-right {
+	animation: moveInRight 2s;
 }
 
 #section-1 {
@@ -169,6 +177,7 @@ img {
 
 .gallery {
 	display: grid;
+	height: 100vh;
 	grid-template-columns: repeat(2, 2fr);
 	gap: 1rem;
 	text-align: center;
@@ -176,7 +185,7 @@ img {
 
 .gallery div img {
 	width: auto;
-	height: 60rem;
+	height: 40rem;
 }
 
 #section-3 div h2 {
